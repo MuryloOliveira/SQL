@@ -1,9 +1,11 @@
-<h2>Home</h2>
+ <main>
+    <h2>Home</h2>
 
-{{#each books}}
-<div>
-    <h3>Titulo: {{this.title}}</h3>
-    <p>Quantidade de paginas {{this.pageqty}}</p>
-</div>
-{{/each}}
-
+    {{#each books}}
+    <div>
+        <h3>Titulo: {{this.title}}</h3>
+        <p>Quantidade de paginas {{this.pageqty}}</p>
+        <a href="/book/{{this.id">Ver mais</a>
+    </div>
+    {{/each}}
+</main>
